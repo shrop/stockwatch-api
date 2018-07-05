@@ -1,4 +1,4 @@
-uuid: 40735be1-da28-46f7-ab2c-8fa92eefd6d3
+uuid: 7eb5cd49-5262-408f-9984-fac7fa3f24e0
 langcode: en
 status: true
 dependencies:
@@ -8,8 +8,8 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: Stocks
-type: stocks
+name: Stock
+type: stock
 description: 'Stocks that have been followed by Stockwatch users.'
 help: ''
 new_revision: false

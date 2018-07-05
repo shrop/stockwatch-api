@@ -1,19 +1,27 @@
-uuid: 191f8eda-ab57-49aa-8bd5-f45abe9f0a4e
+uuid: 622ee967-7066-4235-9d08-45e55f01de5f
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
-    - node.type.stocks
+    - field.field.node.stock.symbol
+    - node.type.stock
   module:
     - user
-id: node.stocks.teaser
+id: node.stock.default
 targetEntityType: node
-bundle: stocks
-mode: teaser
+bundle: stock
+mode: default
 content:
   links:
     weight: 100
+    region: content
+  symbol:
+    weight: 101
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
   title:
     label: hidden

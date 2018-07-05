@@ -1,14 +1,14 @@
-uuid: e57adf32-2f2b-4274-b344-cb5ab659477c
+uuid: c30b64fc-3665-470f-b1f3-899bda8f567a
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.symbol
-    - node.type.stocks
-id: node.stocks.symbol
+    - node.type.stock
+id: node.stock.symbol
 field_name: symbol
 entity_type: node
-bundle: stocks
+bundle: stock
 label: Symbol
 description: ''
 required: true

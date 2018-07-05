@@ -1,13 +1,13 @@
-uuid: c53c6294-4f6a-4251-9a62-05c45301b26f
+uuid: 502eb6c4-c410-403f-80cc-9075e540071f
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.stocks
-id: node.stocks.promote
+    - node.type.stock
+id: node.stock.promote
 field_name: promote
 entity_type: node
-bundle: stocks
+bundle: stock
 label: 'Promoted to front page'
 description: ''
 required: false

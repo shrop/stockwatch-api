@@ -1,15 +1,15 @@
-uuid: 07736474-1bad-49ff-aa23-ba8186818348
+uuid: e5cf815e-88dc-4c83-a9ec-216a142e4fc5
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.stocks.symbol
-    - node.type.stocks
+    - field.field.node.stock.symbol
+    - node.type.stock
   module:
     - path
-id: node.stocks.default
+id: node.stock.default
 targetEntityType: node
-bundle: stocks
+bundle: stock
 mode: default
 content:
   created:
