@@ -1,0 +1,22 @@
+uuid: c53c6294-4f6a-4251-9a62-05c45301b26f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.stocks
+id: node.stocks.promote
+field_name: promote
+entity_type: node
+bundle: stocks
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

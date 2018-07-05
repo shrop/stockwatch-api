@@ -1,0 +1,11 @@
+uuid: d8c76c51-1f4e-43aa-a1f1-91223f12970e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.stocks
+id: node.stocks
+target_entity_type_id: node
+target_bundle: stocks
+default_langcode: site_default
+language_alterable: false

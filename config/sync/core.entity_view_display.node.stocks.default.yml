@@ -1,0 +1,35 @@
+uuid: eace6e28-9cda-4db7-86d8-ed8cb3fd59b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.stocks.symbol
+    - node.type.stocks
+  module:
+    - user
+id: node.stocks.default
+targetEntityType: node
+bundle: stocks
+mode: default
+content:
+  links:
+    weight: 100
+    region: content
+  symbol:
+    weight: 101
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  langcode: true

@@ -1,0 +1,17 @@
+uuid: 40735be1-da28-46f7-ab2c-8fa92eefd6d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Stocks
+type: stocks
+description: 'Stocks that have been followed by Stockwatch users.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false
