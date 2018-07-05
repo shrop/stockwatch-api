@@ -5,5 +5,5 @@ pipeline:
   directory: $APP_ROOT
 - name: Sync Drupal config
   type: command
-  command: drush cim
+  command: drush cim -y
   directory: $APP_ROOT
