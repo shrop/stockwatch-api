@@ -1,0 +1,17 @@
+uuid: 7a1c5261-0529-4f51-aa34-ed0091e90a32
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Watch
+type: watch
+description: 'Stores the action of a user watching a stock. All ''Stock'' being watched by a user is referenced from this.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

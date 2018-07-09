@@ -1,0 +1,22 @@
+uuid: 90a2e226-4b87-4382-b240-969d122eb4e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.watch
+id: node.watch.promote
+field_name: promote
+entity_type: node
+bundle: watch
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,29 @@
+uuid: 403f8eb2-48a3-4409-b45c-c18747c237e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.watch.stock_reference
+    - node.type.watch
+  module:
+    - user
+id: node.watch.teaser
+targetEntityType: node
+bundle: watch
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  stock_reference: true
