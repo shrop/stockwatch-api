@@ -16,8 +16,7 @@
         "drupal-composer/drupal-scaffold": "^2.2",
         "cweagans/composer-patches": "^1.6.0",
         "webflo/drupal-core-strict": "8.5.3",
-        "drush/drush": "~8.1.12",
-        "drupal/console": "~1.0"
+        "drush/drush": "~8.1.12"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
