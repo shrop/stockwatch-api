@@ -1,0 +1,33 @@
+uuid: 4dcd16f5-50d8-4373-9236-314b3ab0a24e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.stocks_watched
+  module:
+    - user
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: -10
+    region: content
+  language:
+    weight: 0
+    region: content
+  stocks_watched:
+    weight: 7
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  timezone:
+    weight: 6
+    region: content
+hidden:
+  langcode: true

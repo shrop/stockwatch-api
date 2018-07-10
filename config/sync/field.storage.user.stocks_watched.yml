@@ -1,12 +1,13 @@
-uuid: 64601d02-9952-49d8-9cd1-55224cb331a4
+uuid: b995a9cf-1db0-4439-ab51-8fbe2478b7b8
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.stock_reference
-field_name: stock_reference
-entity_type: node
+    - user
+id: user.stocks_watched
+field_name: stocks_watched
+entity_type: user
 type: entity_reference
 settings:
   target_type: node
