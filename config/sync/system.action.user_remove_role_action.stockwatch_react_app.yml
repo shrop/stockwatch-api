@@ -1,0 +1,14 @@
+uuid: 8b354c93-e526-4996-b678-7b8aa65db3f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.stockwatch_react_app
+  module:
+    - user
+id: user_remove_role_action.stockwatch_react_app
+label: 'Remove the Stockwatch react app role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: stockwatch_react_app
