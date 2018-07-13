@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains stockwatch.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function stockwatch_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the stockwatch module.
+    case 'help.page.stockwatch':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Configuration and settings that enables Stockwatch to reach out to external API.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function stockwatch_theme() {
+  return [
+    'stockwatch' => [
+      'render element' => 'children',
+    ],
+  ];
+}

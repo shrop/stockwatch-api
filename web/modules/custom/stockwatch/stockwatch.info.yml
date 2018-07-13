@@ -1,0 +1,5 @@
+name: 'Stockwatch'
+type: module
+description: 'Configuration and settings that enables Stockwatch to reach out to external API.'
+core: 8.x
+package: 'Custom'

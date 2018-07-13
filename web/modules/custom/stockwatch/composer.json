@@ -1,0 +1,14 @@
+{
+  "name": "drupal/stockwatch",
+  "type": "drupal-module",
+  "description": "Configuration and settings that enables Stockwatch to reach out to external API.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/stockwatch",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/stockwatch",
+    "source": "http://cgit.drupalcode.org/stockwatch"
+  },
+  "require": { }
+}
