@@ -10,6 +10,7 @@ module:
   contenta_enhancements: 0
   datetime: 0
   datetime_range: 0
+  devel: 0
   dropzonejs: 0
   dropzonejs_eb_widget: 0
   dynamic_page_cache: 0
@@ -33,6 +34,7 @@ module:
   jsonapi_extras: 0
   jsonrpc: 0
   jsonrpc_discovery: 0
+  kint: 0
   language: 0
   link: 0
   media: 0

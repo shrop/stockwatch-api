@@ -8,7 +8,7 @@ id: node.stock.title
 field_name: title
 entity_type: node
 bundle: stock
-label: Name
+label: Symbol
 description: ''
 required: true
 translatable: true

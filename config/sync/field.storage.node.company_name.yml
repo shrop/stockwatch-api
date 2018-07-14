@@ -1,15 +1,15 @@
-uuid: 27e276e0-ae6a-4d8f-8174-18cec1a39df9
+uuid: a630a7df-7be5-4f62-8b23-00db839d7510
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.symbol
-field_name: symbol
+id: node.company_name
+field_name: company_name
 entity_type: node
 type: string
 settings:
-  max_length: 5
+  max_length: 100
   is_ascii: false
   case_sensitive: false
 module: core

@@ -3,7 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.stock.symbol
+    - field.field.node.stock.company_name
+    - field.field.node.stock.stock_price
     - node.type.stock
   module:
     - user
@@ -12,16 +13,27 @@ targetEntityType: node
 bundle: stock
 mode: default
 content:
-  links:
-    weight: 100
-    region: content
-  symbol:
+  company_name:
     weight: 101
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  links:
+    weight: 100
+    region: content
+  stock_price:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
     region: content
   title:
     label: hidden

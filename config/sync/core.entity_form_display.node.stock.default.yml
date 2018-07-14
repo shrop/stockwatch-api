@@ -3,7 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.stock.symbol
+    - field.field.node.stock.company_name
+    - field.field.node.stock.stock_price
     - node.type.stock
   module:
     - path
@@ -12,6 +13,14 @@ targetEntityType: node
 bundle: stock
 mode: default
 content:
+  company_name:
+    weight: 121
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   created:
     type: datetime_timestamp
     weight: 10
@@ -52,13 +61,12 @@ content:
     weight: 16
     region: content
     third_party_settings: {  }
-  symbol:
-    weight: 121
+  stock_price:
+    weight: 122
     settings:
-      size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
+    type: number
     region: content
   title:
     type: string_textfield
