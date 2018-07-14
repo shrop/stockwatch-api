@@ -33,3 +33,44 @@ function stockwatch_theme() {
     ],
   ];
 }
+
+/**
+ * Implements hook_entity_presave().
+ */
+function stockwatch_entity_presave(Drupal\Core\Entity\EntityInterface $entity) {
+  if ($entity->getEntityTypeId() == 'node' && $entity->bundle() == 'stock') {
+    $stock_symbol = $entity->label();
+    $api_stock_response = stockwatch_stock_fetch_by_symbol($stock_symbol);
+    $api_stock_data = json_decode($api_stock_response);
+
+    if (empty($api_stock_data->message)) {
+      $entity->set('company_name', $api_stock_data->data[0]->name);
+      $entity->set('stock_price', $api_stock_data->data[0]->price);
+    }
+  }
+}
+
+/**
+ * Helper function to return stocks from API endpoint.
+ */
+function stockwatch_stock_fetch_by_symbol($symbol) {
+  $client = \Drupal::httpClient();
+  $endpoint = 'https://www.worldtradingdata.com/api/v1/stock/';
+  $api_token = \Drupal::config('stockwatch')->get('stockwatch_api_token');
+
+  $params = [
+    'api_token' => $api_token,
+    'symbol' => $symbol,
+  ];
+
+  $query_str = \Drupal\Component\Utility\UrlHelper::buildQuery($params);
+
+  $method = 'GET';
+
+  $response = $client->request($method, $endpoint . '?' . $query_str);
+  $code = $response->getStatusCode();
+  if ($code == 200) {
+    $body = $response->getBody()->getContents();
+    return $body;
+  }
+}
