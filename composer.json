@@ -15,8 +15,9 @@
         "contentacms/contenta_jsonapi": "dev-8.x-1.x#1f0409ec3746df7851e319bb6948eb5c01562121",
         "drupal-composer/drupal-scaffold": "^2.2",
         "cweagans/composer-patches": "^1.6.0",
-        "webflo/drupal-core-strict": "8.5.6",
         "drush/drush": "~8.1.12",
+        "webflo/drupal-core-require-dev": "^8.6.0",
+        "drupal/core": "^8.6.0",
         "drupal/console": "^1.8",
         "drupal/devel": "^1.2"
     },
