@@ -74,3 +74,16 @@ function stockwatch_stock_fetch_by_symbol($symbol) {
     return $body;
   }
 }
+
+/**
+ * Implements hook_entity_bundle_field_info_alter().
+ */
+function stockwatch_entity_bundle_field_info_alter(&$fields, \Drupal\Core\Entity\EntityTypeInterface $entity_type, $bundle) {
+  if ($bundle === 'stock') {
+    if (isset($fields['title'])) {
+      // Adds validation constraint on the Title field which is used for all
+      // stock symbols.
+      $fields['title']->addConstraint('UniqueStockSymbolConstraint', []);
+    }
+  }
+}
