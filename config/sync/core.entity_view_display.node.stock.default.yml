@@ -24,6 +24,8 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
   stock_price:
     weight: 102
     label: above

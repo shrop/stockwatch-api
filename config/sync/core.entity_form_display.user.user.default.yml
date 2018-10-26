@@ -14,9 +14,13 @@ content:
   account:
     weight: -10
     region: content
+    settings: {  }
+    third_party_settings: {  }
   language:
     weight: 0
     region: content
+    settings: {  }
+    third_party_settings: {  }
   stocks_watched:
     weight: 7
     settings:
@@ -29,5 +33,7 @@ content:
   timezone:
     weight: 6
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   langcode: true

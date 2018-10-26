@@ -14,6 +14,8 @@ content:
   member_for:
     weight: 5
     region: content
+    settings: {  }
+    third_party_settings: {  }
   stocks_watched:
     weight: 6
     label: above

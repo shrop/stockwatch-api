@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.stock.company_name
+    - field.field.node.stock.stock_price
     - node.type.stock
   module:
     - user
@@ -15,6 +17,8 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
   title:
     label: hidden
     type: string
@@ -24,5 +28,7 @@ content:
       link_to_entity: false
     third_party_settings: {  }
 hidden:
+  company_name: true
   langcode: true
+  stock_price: true
   symbol: true
