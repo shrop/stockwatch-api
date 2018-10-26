@@ -2206,17 +2206,17 @@
         },
         {
             "name": "drupal/consumers",
-            "version": "1.0.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/consumers",
-                "reference": "8.x-1.0"
+                "reference": "8.x-1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/consumers-8.x-1.0.zip",
-                "reference": "8.x-1.0",
-                "shasum": "9fd62175854818cf0d9fd3101f005bb9ed018738"
+                "url": "https://ftp.drupal.org/files/projects/consumers-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "3bbb84d2558d9d153a6db543c8d41ce5b8ca58f8"
             },
             "require": {
                 "drupal/core": "*"
@@ -2227,8 +2227,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1533971884",
+                    "version": "8.x-1.2",
+                    "datestamp": "1536851884",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2769,17 +2769,17 @@
         },
         {
             "name": "drupal/entity_browser",
-            "version": "2.0.0-alpha3",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/entity_browser",
-                "reference": "8.x-2.0-alpha3"
+                "reference": "8.x-2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/entity_browser-8.x-2.0-alpha3.zip",
-                "reference": "8.x-2.0-alpha3",
-                "shasum": "bd8537cda5f287ecca273a5c5a9c36b020c522fe"
+                "url": "https://ftp.drupal.org/files/projects/entity_browser-8.x-2.0.zip",
+                "reference": "8.x-2.0",
+                "shasum": "683a7a252c947433c7b78bb838d6d8973c13cf77"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -2797,11 +2797,11 @@
                     "dev-8.x-1.x": "8.1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-alpha3",
-                    "datestamp": "1528141081",
+                    "version": "8.x-2.0",
+                    "datestamp": "1536328684",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -2852,17 +2852,17 @@
         },
         {
             "name": "drupal/fieldable_path",
-            "version": "1.0.0-rc4",
+            "version": "1.0.0-rc5",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/fieldable_path",
-                "reference": "8.x-1.0-rc4"
+                "reference": "8.x-1.0-rc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/fieldable_path-8.x-1.0-rc4.zip",
-                "reference": "8.x-1.0-rc4",
-                "shasum": "2082a6818668d8e4f51f62d7b0abb155ff2304da"
+                "url": "https://ftp.drupal.org/files/projects/fieldable_path-8.x-1.0-rc5.zip",
+                "reference": "8.x-1.0-rc5",
+                "shasum": "c271d4a5fead0bbb1e2dd810bfa8883a32a97322"
             },
             "require": {
                 "drupal/core": "*"
@@ -2876,8 +2876,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc4",
-                    "datestamp": "1495283883",
+                    "version": "8.x-1.0-rc5",
+                    "datestamp": "1535539680",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -3163,17 +3163,17 @@
         },
         {
             "name": "drupal/jsonapi_extras",
-            "version": "2.5.0",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/jsonapi_extras",
-                "reference": "8.x-2.5"
+                "reference": "8.x-2.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/jsonapi_extras-8.x-2.5.zip",
-                "reference": "8.x-2.5",
-                "shasum": "76ce52b467952e6e3d9bb210f61671002bb5b404"
+                "url": "https://ftp.drupal.org/files/projects/jsonapi_extras-8.x-2.10.zip",
+                "reference": "8.x-2.10",
+                "shasum": "023c57a0fa7221d0616aae5b43a2fb7590d0c0a5"
             },
             "require": {
                 "drupal/core": "^8.5",
@@ -3186,8 +3186,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.5",
-                    "datestamp": "1533103380",
+                    "version": "8.x-2.10",
+                    "datestamp": "1539794280",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3213,24 +3213,21 @@
         },
         {
             "name": "drupal/jsonrpc",
-            "version": "1.0.0-beta2",
+            "version": "1.0.0-beta5",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/jsonrpc",
-                "reference": "8.x-1.0-beta2"
+                "reference": "8.x-1.0-beta5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/jsonrpc-8.x-1.0-beta2.zip",
-                "reference": "8.x-1.0-beta2",
-                "shasum": "ce55f8a90769187712c329a598f255734d9e112f"
+                "url": "https://ftp.drupal.org/files/projects/jsonrpc-8.x-1.0-beta5.zip",
+                "reference": "8.x-1.0-beta5",
+                "shasum": "07c5bebf837d6c9ab1cb3ab62ca69dd0f373e2d2"
             },
             "require": {
                 "drupal/core": "~8.0",
                 "e0ipso/shaper": "^1.2.1"
-            },
-            "require-dev": {
-                "drupal/serialization-serialization": "*"
             },
             "type": "drupal-module",
             "extra": {
@@ -3238,8 +3235,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta2",
-                    "datestamp": "1532034781",
+                    "version": "8.x-1.0-beta5",
+                    "datestamp": "1536764880",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -3711,17 +3708,17 @@
         },
         {
             "name": "drupal/simple_oauth",
-            "version": "3.8.0",
+            "version": "3.10.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/simple_oauth",
-                "reference": "8.x-3.8"
+                "reference": "8.x-3.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/simple_oauth-8.x-3.8.zip",
-                "reference": "8.x-3.8",
-                "shasum": "dfc531971c23c409b514eba28cd050dd8f1277f2"
+                "url": "https://ftp.drupal.org/files/projects/simple_oauth-8.x-3.10.zip",
+                "reference": "8.x-3.10",
+                "shasum": "04fcea46ba6cc9db883043b6ac4c5d3d4d04d4a5"
             },
             "require": {
                 "drupal/consumers": "^1.0.0-beta3",
@@ -3734,8 +3731,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.8",
-                    "datestamp": "1525410485",
+                    "version": "8.x-3.10",
+                    "datestamp": "1536851884",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
