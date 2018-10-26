@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "contentacms/contenta_jsonapi": "dev-8.x-1.x#1f0409ec3746df7851e319bb6948eb5c01562121",
+        "contentacms/contenta_jsonapi": "dev-8.x-2.x",
         "drupal-composer/drupal-scaffold": "^2.2",
         "cweagans/composer-patches": "^1.6.0",
         "drush/drush": "~8.1.12",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e4a9f887f8e3ac24e9ab7c450191cd0",
+    "content-hash": "97efe4f88b7086c42b304811afd238ac",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -644,43 +644,42 @@
         },
         {
             "name": "contentacms/contenta_jsonapi",
-            "version": "dev-8.x-1.x",
+            "version": "dev-8.x-2.x",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contentacms/contenta_jsonapi.git",
-                "reference": "1f0409ec3746df7851e319bb6948eb5c01562121"
+                "reference": "5aeb9af6bfa90af3cbac68e7074ad20581ce202c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contentacms/contenta_jsonapi/zipball/1f0409ec3746df7851e319bb6948eb5c01562121",
-                "reference": "1f0409ec3746df7851e319bb6948eb5c01562121",
+                "url": "https://api.github.com/repos/contentacms/contenta_jsonapi/zipball/5aeb9af6bfa90af3cbac68e7074ad20581ce202c",
+                "reference": "5aeb9af6bfa90af3cbac68e7074ad20581ce202c",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": "^1.0.24",
                 "cweagans/composer-patches": "^1.6.0",
                 "drupal/admin_toolbar": "^1.23",
                 "drupal/consumer_image_styles": "^2.0@rc",
-                "drupal/consumers": "^1.0@beta",
-                "drupal/core": "^8.5.3",
-                "drupal/decoupled_router": "^1.0@rc",
+                "drupal/consumers": "^1.0",
+                "drupal/contentajs": "^1.0@beta",
+                "drupal/core": "^8.6.0",
+                "drupal/decoupled_router": "^1.0",
                 "drupal/dropzonejs": "^2.0@alpha",
                 "drupal/entity_browser": "^2.0@alpha",
-                "drupal/fieldable_path": "^1.0",
                 "drupal/graphql": "^3.0@beta",
                 "drupal/image_widget_crop": "^2.1",
                 "drupal/inline_entity_form": "^1.0@beta",
-                "drupal/jsonapi": "^1.16",
-                "drupal/jsonapi_extras": "^2.0",
-                "drupal/jsonrpc": "^1.0@alpha",
+                "drupal/jsonapi": "^1.23",
+                "drupal/jsonapi_extras": "^2.9",
+                "drupal/jsonrpc": "^1.0@beta",
                 "drupal/material_admin": "1.x-dev",
                 "drupal/media_entity_browser": "^2.0@alpha",
-                "drupal/openapi": "^1.0@alpha",
-                "drupal/openapi_ui": "^1.0@RC",
-                "drupal/openapi_ui_redoc": "^1.0@RC",
+                "drupal/openapi": "^1.0@beta",
+                "drupal/openapi_ui": "^1.0@rc",
+                "drupal/openapi_ui_redoc": "^1.0@rc",
                 "drupal/schemata": "^1.0@alpha",
                 "drupal/simple_oauth": "^3.3",
-                "drupal/subrequests": "^2.0@rc",
+                "drupal/subrequests": "^2.0",
                 "drupal/video_embed_field": "^2.0"
             },
             "require-dev": {
@@ -713,14 +712,10 @@
                     ]
                 },
                 "patches": {
-                    "drupal/core": {
-                        "Allow a profile to be installed from existing config": "https://www.drupal.org/files/issues/drupal-n2788777-105.patch"
-                    },
-                    "drupal/jsonapi": {
-                        "Make the file URLs full URLs": "https://www.drupal.org/files/issues/2929600--use-full-url-file--2.patch"
-                    },
-                    "drupal/schemata": {
-                        "Small inaccuracies for JSON API schemas": "https://www.drupal.org/files/issues/2018-04-28/2967572--schemata--multiple-minor-adjustments--3.patch"
+                    "drupal/openapi": {
+                        "Exclude disabled JSON API resources": "https://www.drupal.org/files/issues/2018-09-18/3000458--exclude-disabled-resource-types--2.patch",
+                        "Documentation for JSON API collections needs minor adjustments": "https://www.drupal.org/files/issues/2018-09-18/3000609--jsonapi-collections-fixes--2.patch",
+                        "Improve path method descriptions": "https://www.drupal.org/files/issues/2018-09-29/3001993--initial-description--7.patch"
                     }
                 }
             },
@@ -728,7 +723,7 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "time": "2018-06-24T06:01:13+00:00"
+            "time": "2018-10-12T06:23:16+00:00"
         },
         {
             "name": "cweagans/composer-patches",
@@ -2252,6 +2247,55 @@
             }
         },
         {
+            "name": "drupal/contentajs",
+            "version": "1.0.0-beta3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/contentajs",
+                "reference": "8.x-1.0-beta3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/contentajs-8.x-1.0-beta3.zip",
+                "reference": "8.x-1.0-beta3",
+                "shasum": "3e8ff7106df7f257e847cf41097994d070783636"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/jsonrpc": "*",
+                "drupal/openapi": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta3",
+                    "datestamp": "1534020480",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "e0ipso",
+                    "homepage": "https://www.drupal.org/user/550110"
+                }
+            ],
+            "description": "Provides server side configuration options for Contenta JS.",
+            "homepage": "https://www.drupal.org/project/contentajs",
+            "support": {
+                "source": "http://cgit.drupalcode.org/contentajs"
+            }
+        },
+        {
             "name": "drupal/core",
             "version": "8.6.2",
             "source": {
@@ -2464,8 +2508,7 @@
                     "recurse": false,
                     "replace": false,
                     "merge-extra": false
-                },
-                "patches_applied": []
+                }
             },
             "autoload": {
                 "psr-4": {
