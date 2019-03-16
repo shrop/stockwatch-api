@@ -1,5 +1,0 @@
-access_token_expiration: 300
-refresh_token_expiration: 870000
-public_key: /mnt/files/keys/public.key
-private_key: /mnt/files/keys/private.key
-remember_clients: false
