@@ -1,4 +1,4 @@
-uuid: 10b36f2f-64d2-4b58-a206-992f147da84e
+uuid: d5c41ced-1c02-4430-8c5a-5463b9c4cd93
 langcode: en
 status: true
 dependencies: {  }
@@ -8,7 +8,6 @@ weight: 1
 is_admin: false
 permissions:
   - 'access content'
-  - 'access jsonapi resource list'
   - 'access openapi api docs'
   - 'access toolbar'
   - 'issue subrequests'

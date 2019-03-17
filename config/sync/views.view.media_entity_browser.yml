@@ -1,9 +1,7 @@
-uuid: 0b7d0021-c2f6-4af6-a27c-27a47ea74660
+uuid: da1fa662-c59b-487d-b537-711f0f8771f0
 langcode: und
 status: true
 dependencies:
-  config:
-    - image.style.media_entity_browser_thumbnail
   module:
     - entity_browser
     - image

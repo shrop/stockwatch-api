@@ -1,4 +1,4 @@
-uuid: 85be1d9b-3787-4cb1-93cd-d243921acd0a
+uuid: 317a07f5-b15a-416c-a309-4f3c442a8d0e
 langcode: en
 status: true
 dependencies: {  }
@@ -8,7 +8,6 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
-  - 'access jsonapi resource list'
   - 'access openapi api docs'
   - 'access toolbar'
   - 'execute graphql requests'

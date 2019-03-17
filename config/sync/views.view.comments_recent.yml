@@ -1,10 +1,9 @@
-uuid: d3163649-2b78-4c48-9a25-054c8300f42c
+uuid: b3d5f6f0-e3f6-496d-b23c-e5a6d82e1a78
 langcode: en
 status: true
 dependencies:
   module:
     - comment
-    - node
     - user
 id: comments_recent
 label: 'Recent comments'

@@ -1,4 +1,4 @@
-uuid: e1e23cdb-8c15-4afd-acfe-5ba424c21bd5
+uuid: ea7d2c70-f947-42f6-922d-09b054eab898
 langcode: en
 status: true
 dependencies:
@@ -820,7 +820,7 @@ display:
       arguments: {  }
       display_extenders: {  }
     cache_metadata:
-      max-age: -1
+      max-age: 0
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -847,7 +847,7 @@ display:
         menu_name: main
       display_description: ''
     cache_metadata:
-      max-age: -1
+      max-age: 0
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
