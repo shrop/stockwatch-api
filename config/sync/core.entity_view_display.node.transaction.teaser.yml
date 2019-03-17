@@ -1,27 +1,17 @@
-uuid: f21dee72-5897-4270-9477-49ddbed4e0c7
+uuid: ff60296f-140a-4972-955c-395180023175
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.basic_page.body
-    - node.type.basic_page
+    - node.type.transaction
   module:
-    - text
     - user
-id: node.basic_page.teaser
+id: node.transaction.teaser
 targetEntityType: node
-bundle: basic_page
+bundle: transaction
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
-    region: content
   links:
     weight: 100
     settings: {  }
@@ -36,5 +26,4 @@ content:
       link_to_entity: false
     third_party_settings: {  }
 hidden:
-  image: true
   langcode: true

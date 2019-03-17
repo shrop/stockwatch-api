@@ -1,0 +1,23 @@
+uuid: eadf2bb0-dc61-4a8f-96fe-e76606990b81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.stock_quantity
+    - node.type.transaction
+id: node.transaction.stock_quantity
+field_name: stock_quantity
+entity_type: node
+bundle: transaction
+label: 'Stock Quantity'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

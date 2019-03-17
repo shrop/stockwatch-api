@@ -1,0 +1,21 @@
+uuid: de537b6b-1331-423f-9e95-9d5f53e5fa6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.stock_symbol
+    - node.type.transaction
+  module:
+    - text
+id: node.transaction.stock_symbol
+field_name: stock_symbol
+entity_type: node
+bundle: transaction
+label: 'Stock Symbol'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,11 @@
+uuid: 57e3ad5c-8694-457d-9a71-a2cfcdd475a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.transaction
+id: node.transaction
+target_entity_type_id: node
+target_bundle: transaction
+default_langcode: site_default
+language_alterable: false

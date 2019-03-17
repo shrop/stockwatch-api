@@ -1,0 +1,28 @@
+uuid: e7c8fcdd-6316-4a89-9f52-29206da074ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.transaction_owner
+    - node.type.transaction
+id: node.transaction.transaction_owner
+field_name: transaction_owner
+entity_type: node
+bundle: transaction
+label: 'Transaction Owner'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

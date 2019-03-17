@@ -1,0 +1,23 @@
+uuid: 5376d46a-41c9-4545-a53f-b3a485e7246b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.stock_price
+    - node.type.transaction
+id: node.transaction.stock_price
+field_name: stock_price
+entity_type: node
+bundle: transaction
+label: 'Stock Price'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal
