@@ -1,0 +1,8 @@
+uuid: 8d33f73b-a8e9-418d-b978-76ff6560ed14
+langcode: en
+status: true
+dependencies: {  }
+id: html_time
+label: 'HTML Time'
+locked: true
+pattern: 'H:i:s'

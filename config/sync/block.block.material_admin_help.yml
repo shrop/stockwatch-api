@@ -1,0 +1,20 @@
+uuid: 959b234c-0f7b-4219-bd29-d6bb9a80f044
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - material_admin
+id: material_admin_help
+theme: material_admin
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
