@@ -1,0 +1,17 @@
+uuid: f8661d39-b15e-421a-8a84-9507a469d8fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Basic page'
+type: basic_page
+description: 'Used for creating page content on the site.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
