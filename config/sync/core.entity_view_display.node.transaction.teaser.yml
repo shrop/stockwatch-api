@@ -27,3 +27,7 @@ content:
     third_party_settings: {  }
 hidden:
   langcode: true
+  stock_price: true
+  stock_quantity: true
+  stock_symbol: true
+  transaction_owner: true
