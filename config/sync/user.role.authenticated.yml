@@ -10,6 +10,7 @@ permissions:
   - 'access content'
   - 'access openapi api docs'
   - 'access toolbar'
+  - 'create transaction content'
   - 'issue subrequests'
-  - 'view media'
   - 'use jsonrpc services'
+  - 'view media'
