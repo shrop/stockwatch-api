@@ -1,0 +1,14 @@
+uuid: 725f5a18-f1dc-4729-854c-4229ea9b5a9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.stockwatch_react_app
+  module:
+    - user
+id: user_add_role_action.stockwatch_react_app
+label: 'Add the Stockwatch React App role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: stockwatch_react_app
