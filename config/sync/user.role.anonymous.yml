@@ -7,11 +7,5 @@ label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
-  - 'access content'
-  - 'access openapi api docs'
   - 'access toolbar'
-  - 'create transaction content'
   - 'execute graphql requests'
-  - 'issue subrequests'
-  - 'use jsonrpc services'
-  - 'view media'

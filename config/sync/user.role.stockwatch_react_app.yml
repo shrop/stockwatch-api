@@ -1,0 +1,9 @@
+uuid: f2193d69-2dbf-437b-9555-3e6942483be1
+langcode: en
+status: true
+dependencies: {  }
+id: stockwatch_react_app
+label: 'Stockwatch React App'
+weight: 5
+is_admin: null
+permissions: {  }
