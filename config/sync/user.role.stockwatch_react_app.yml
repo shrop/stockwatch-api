@@ -6,4 +6,6 @@ id: stockwatch_react_app
 label: 'Stockwatch React App'
 weight: 5
 is_admin: null
-permissions: {  }
+permissions:
+  - 'grant simple_oauth codes'
+  - 'view own transaction content'
