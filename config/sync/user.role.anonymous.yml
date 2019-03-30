@@ -7,5 +7,7 @@ label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
+  - 'access content'
   - 'access toolbar'
   - 'execute graphql requests'
+  - 'view any basic_page content'
