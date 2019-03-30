@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed3480d8d38e3b439fab8fd496a77bea",
+    "content-hash": "712f60dfbf5ff68ea1b95c175c6d5676",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3020,7 +3020,7 @@
             "version": "3.4.0",
             "source": {
                 "type": "git",
-                "url": "https://git.drupal.org/project/jsonapi_extras",
+                "url": "https://git.drupalcode.org/project/jsonapi_extras",
                 "reference": "8.x-3.4"
             },
             "dist": {
@@ -3253,6 +3253,56 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/media_entity_browser"
             }
+        },
+        {
+            "name": "drupal/node_view_permissions",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/node_view_permissions",
+                "reference": "20426031bd308b89c05b078f1b02bee73e0d4f08"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.2+5-dev",
+                    "datestamp": "1542077884",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "adci_contributor",
+                    "homepage": "https://www.drupal.org/user/1830536"
+                },
+                {
+                    "name": "adcillc",
+                    "homepage": "https://www.drupal.org/user/366450"
+                },
+                {
+                    "name": "hoter",
+                    "homepage": "https://www.drupal.org/user/1677790"
+                }
+            ],
+            "description": "Enables permissions \"View own content\" and \"View any content\" for each content type.",
+            "homepage": "https://www.drupal.org/project/node_view_permissions",
+            "support": {
+                "source": "http://cgit.drupalcode.org/node_view_permissions"
+            },
+            "time": "2019-03-27T08:43:58+00:00"
         },
         {
             "name": "drupal/openapi",
@@ -3595,7 +3645,7 @@
             "version": "3.14.0",
             "source": {
                 "type": "git",
-                "url": "https://git.drupal.org/project/simple_oauth",
+                "url": "https://git.drupalcode.org/project/simple_oauth",
                 "reference": "8.x-3.14"
             },
             "dist": {
@@ -10765,7 +10815,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "contentacms/contenta_jsonapi": 20
+        "contentacms/contenta_jsonapi": 20,
+        "drupal/node_view_permissions": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

@@ -13,4 +13,5 @@ permissions:
   - 'create transaction content'
   - 'issue subrequests'
   - 'use jsonrpc services'
+  - 'view any basic_page content'
   - 'view media'
