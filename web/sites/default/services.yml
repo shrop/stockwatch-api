@@ -167,6 +167,6 @@ parameters:
     allowedOrigins:
        # Note: you need to specify the host + port where your app will run.
       - '*'
-    exposedHeaders: true
+    exposedHeaders: false
     maxAge: false
     supportsCredentials: false
